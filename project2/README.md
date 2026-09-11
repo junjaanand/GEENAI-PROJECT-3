@@ -12,7 +12,7 @@ Instead of relying on a single monolithic prompt, this system decomposes email w
 ## 📌 System Architecture
 
 
-```
+``` 
 
 [User Input: Context + Recipient + Tone]
 │
