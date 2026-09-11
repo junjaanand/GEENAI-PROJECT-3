@@ -10,7 +10,7 @@ load_dotenv()
 
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings,ChatGoogleGenerativeAI
 from langchain_community.vectorstores import InMemoryVectorStore
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
