@@ -95,8 +95,8 @@ if st.session_state.web_loaded  and st.session_state.vector_store:
             
             
         # defining llm toget answer of user question based on context generated
-        # llm =ChatGoogleGenerativeAI(model="gemini-3.5-flash")
-        llm = ChatGroq(model="llama-3.1-8b-instant")
+        llm =ChatGoogleGenerativeAI(model="gemini-3.5-flash")
+        # llm = ChatGroq(model="llama-3.1-8b-instant")
         #  here we provide context and question to our llm
 
         #  use output parser for structured output
