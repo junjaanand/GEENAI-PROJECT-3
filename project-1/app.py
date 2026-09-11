@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # this is giving bad request error so we switching chat model and model is same nvidaia
-from langchain_nvidia_ai_endpoints import ChatNVIDIADynamo
-from langchain_openai import ChatOpenAI
+# from langchain_nvidia_ai_endpoints import ChatNVIDIADynamo
+# from langchain_openai import ChatOpenAI
 
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
